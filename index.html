@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <title>Assignment 03</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- BANNER -->
+      <div class="container-banner">
+        <figure>
+          <img
+            class="img-banner"
+            src="./images/banner.jpg"
+            alt="banner"
+            width="100%"
+            class="img-banner"
+          />
+        </figure>
+        <div id="banner" style="padding: 50px">
+          <h1>Nguyễn Tiến Đức</h1>
+          <span>Developer</span>
+        </div>
+      </div>
+      <!-- NAV-BAR -->
+      <section id="nav-bar">
+        <nav class="container-nav">
+          <a href="#"> <i class="icon-user"></i>Thông tin</a>
+          <a href="#"> <i class="icon-doc-text-inv"></i>Lý lịch</a>
+          <div class="replace">
+            <h2>Nguyễn Tiến Đức</h2>
+            <p>Developer</p>
+          </div>
+          <img
+            class="img-adv"
+            src="./images/default-avatar.webp"
+            alt="avater"
+          />
+          <a href="#"> <i class="icon-mail-alt"></i>Chứng chỉ</a>
+          <a href="#"> <i class="icon-star-1"></i>Dự Án</a>
+        </nav>
+      </section>
+      <!-- ABOUT -->
+      <section id="about" class="bg-grey">
+        <div class="container-about">
+          <div id="target">
+            <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+            <p>
+              Với mục tiêu chuyển nghề thành một kỹ sư AI, sau khi hoàn thành
+              chứng chỉ lập trình Java của FUNIX, em mong muốn tìm được một công
+              việc phù hợp cho những sự phát triển tiếp theo của bản thân.
+            </p>
+          </div>
+
+          <div id="personal-info" style="margin-top: 20px">
+            <h1 class="section-title">Thông tin cá nhân</h1>
+            <div class="checkMail">
+              <form action="">
+                <input
+                  id="name"
+                  class="emailInput"
+                  name="name"
+                  type="text"
+                  placeholder="Enter email"
+                /><br />
+                <label for="name">Hãy nhập email để xác thực</label>
+                <br />
+              </form>
+              <button id="buttonCheck">Submit</button>
+            </div>
+            <div class="aboutCheck hidden">
+              <ul class="mt-40 info">
+                <li>
+                  <span><strong>Giới tính</strong></span> : Nam
+                </li>
+                <li>
+                  <span><strong>Ngày sinh</strong></span> : 23/11/299
+                </li>
+                <li>
+                  <span><strong>Điện thoại</strong></span> : (+84) 986589827
+                </li>
+                <li>
+                  <span><strong>Email</strong></span> : nguyenduc27315@gmail.com
+                </li>
+                <li>
+                  <span><strong>Địa chỉ</strong></span> : Bồ Đề, Long Biên, Hà
+                  Nội Nội
+                </li>
+                <li>
+                  <span><strong>Website</strong></span> : N/A
+                </li>
+              </ul>
+              <i class="icon-twitter"></i>
+              <i class="icon-facebook"></i>
+              <i class="icon-gplus"></i>
+              <i class="icon-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- JOB-INFO -->
+      <section id="job-info">
+        <div class="container-job">
+          <div class="Experience" style="margin-top: 20px">
+            <h1 class="expMark">Kinh nghiệm</h1>
+            <i class="ic-toolbox" style="font-size: 40px"></i>
+            <button class="viewLM expView">🔻 View more</button>
+            <!--  -->
+            <div class="Exp-content hidden">
+              <ul class="Exp-ul1">
+                <li><strong>Partime - Công ty PLAB</strong></li>
+                <em>11/2021 - 6/2022</em>
+              </ul>
+              <ul class="Exp-ul2">
+                <li>- Lập trình C cho vi điều khiển STM8/STM32.</li>
+                <li>- Thiết kế và hàn mạch điện tử.</li>
+                <li>- Kiểm thử thiết bị điện.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="Skill" style="margin-top: 20px">
+            <h1>Kỹ năng</h1>
+            <i class="ic-tools-2" style="font-size: 40px"></i>
+            <button class="viewLM skillView">🔻 View more</button>
+            <!--  -->
+            <div class="Skill-content hidden">
+              <p>HTML/CSS: Fundamental</p>
+              <span class="skill_1-1"></span>
+              <span class="skill_1-2"></span>
+              <span class="skill_1-3"></span>
+              <p>C/C++: Fundamental</p>
+              <span class="skill_2-1"></span>
+              <span class="skill_2-2"></span>
+              <span class="skill_2-3"></span>
+            </div>
+          </div>
+
+          <div class="Language" style="margin-top: 20px">
+            <h1>Ngôn ngữ</h1>
+            <i class="ic-mic" style="font-size: 40px"></i>
+            <button class="viewLM lanView">🔻 View more</button>
+            <!--  -->
+            <div class="Lan-content hidden">
+              <p>Tiếng Anh - Toeic 605</p>
+              <span class="lan_1-1"></span>
+              <span class="lan_1-2"></span>
+              <span class="lan_1-3"></span>
+            </div>
+          </div>
+
+          <div class="Activity" style="margin-top: 20px">
+            <h1>Hoạt động</h1>
+            <i class="ic-toolbox" style="font-size: 40px"></i>
+            <button class="viewLM actiView">🔻 View more</button>
+            <!--  -->
+            <div class="Acti-content hidden">
+              <ul class="acti-ul1">
+                <li><strong>Nghiên cứu khoa học của trường</strong></li>
+                <em>11/2020 - 4/2021</em>
+              </ul>
+              <ul class="acti-ul2">
+                <li>- Giải khuyến khích</li>
+                <li>
+                  - Đề tài: Nghiên cứu thuật toán tránh vật cản cho xe tự hành
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="Education" style="margin-top: 20px">
+            <h1>Học vấn</h1>
+            <i class="ic-pencil" style="font-size: 40px"></i>
+            <button class="viewLM eduView">🔻 View more</button>
+            <!--  -->
+            <div class="Edu-content hidden">
+              <ul class="edu-ul1">
+                <li><strong>Học viện kỹ thuật quân sự</strong></li>
+                <em>10/2017 - 6/2022</em>
+              </ul>
+              <ul class="edu-ul2">
+                <li>- Chuyên ngành kỹ thuật điều khiển và tự động hóa</li>
+                <li>- GPA: 2.8/4</li>
+              </ul>
+              <ul class="edu-ul3">
+                <li><strong>Trung học phổ thông Nguyễn Gia thiều</strong></li>
+                <em>9/2014 - 7/2017</em>
+              </ul>
+            </div>
+          </div>
+
+          <div class="Hobby" style="margin-top: 20px">
+            <h1>Sở thích</h1>
+            <i class="ic-telescope" style="font-size: 40px"></i>
+            <button class="viewLM hobbView">🔻 View more</button>
+            <!--  -->
+            <div class="Hob-content hidden">
+              <i class="ic-megaphone" style="font-size: 1rem"></i>
+              <i class="ic-strategy" style="font-size: 1rem"></i>
+              <i class="ic-hotairballoon" style="font-size: 1rem"></i>
+              <i class="ic-basket" style="font-size: 1rem"></i>
+              <p>Âm nhạc</p>
+              <p>Chơi game</p>
+              <p>Du lịch</p>
+              <p>Nấu ăn</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATE -->
+      <section id="certificate" class="bg-grey">
+        <div class="container">
+          <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+          <div class="cer-content">
+            <img class="cer-img1" src="./images/Cert_WEB.png" alt="Cert_WEB" />
+            <div class="cer1">
+              <p><strong>CHỨNG CHỈ LẬP TRÌNH WEB - FUNIX</strong></p>
+              <ul>
+                <li>- Chứng chỉ thuộc chương trình CCDN</li>
+              </ul>
+            </div>
+            <img class="cer-img2" src="./images/Cert_PRF.png" alt="Cert_PRF" />
+            <div class="cer2">
+              <p><strong>CHỨNG CHỈ LẬP TRÌNH JAVASCRIPT - FUNIX</strong></p>
+              <ul>
+                <li>- Chứng chỉ thuộc chương trình CCDN</li>
+              </ul>
+            </div>
+            <div class="cer3-big">
+              <img
+                class="cer-img3"
+                src="./images/Cert_DBI.png"
+                alt="Cert_DBI"
+              />
+              <div class="cer3">
+                <p><strong>CHỨNG CHỈ THIẾT KẾ DATABASE - FUNIX</strong></p>
+                <ul>
+                  <li>- Chứng chỉ thuộc chương trình CCDN</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT -->
+      <section id="project">
+        <div class="container">
+          <h1 class="section-title">Dự án</h1>
+          <div class="proj-content">
+            <div class="proj1">
+              <img src="./images/project_1.png" alt="CV cá nhân" width="100%" />
+              <p class="proj1-p">CV CÁ NHÂN</p>
+              <div class="proj1a">
+                <p>2022</p>
+                <i class="icon-user"></i>
+                <p>FUNIX</p>
+                <i class="icon-lamp"></i>
+                <p>Developer</p>
+              </div>
+              <table class="proj-table">
+                <tr>
+                  <td style="width: 80px">Mô tả</td>
+                  <td>
+                    Trang web cá nhân online. Gồm các thông tin cá nhân cũng như
+                    kỹ năng nghề nghiệp
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nhiệm vụ</td>
+                  <td>
+                    - Phát triển code - Review code - Tối ưu code - Xử lý lỗi
+                  </td>
+                </tr>
+                <tr>
+                  <td>Công nghệ</td>
+                  <td>- HTML, CSS</td>
+                </tr>
+                <tr>
+                  <td>Link dự án</td>
+                  <td>
+                    <a class="linkProject" href="project_charter.html"
+                      >https.@.vn</a
+                    >
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <section id="footer">
+        <div class="container-footer">
+          <div></div>
+          <i class="icon-facebook-circled" style="font-size: 40px"></i>
+          <a href="https://www.facebook.com/tien.duc.52035" target="_blank"
+            >Facebook</a
+          >
+          <i class="icon-linkedin-circled" style="font-size: 40px"></i>
+          <a
+            href="https://www.linkedin.com/in/nguyen-tien-duc-338b4b217/"
+            target="_blank"
+            >Linkedin</a
+          >
+          <i class="icon-github-circled" style="font-size: 40px"></i>
+          <a href="https://github.com/lux01123" target="_blank">Github</a>
+        </div>
+        <div></div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
